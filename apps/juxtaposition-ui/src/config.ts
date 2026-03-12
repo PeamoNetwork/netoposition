@@ -12,9 +12,9 @@ const schema = z.object({
 	}).prefault({}),
 	http: z.object({
 		port: z.coerce.number().default(8080),
-		cookieDomain: z.string().default('.pretendo.network'),
+		cookieDomain: z.string().default('.ixchats.com'),
 		/** "Safe" base origin for login-redirect validation */
-		baseUrl: z.string().default('https://juxt.pretendo.network'),
+		baseUrl: z.string().default('https://juxt.ixchats.com'),
 		/** Configures proxy trust (X-Forwarded-For etc.). Can be `true` to unconditionally trust, or
 		 *  provide a numeric hop count, or comma-seperated CIDR ranges.
 		 *  See https://expressjs.com/en/guide/behind-proxies.html
