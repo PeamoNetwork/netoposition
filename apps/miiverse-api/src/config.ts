@@ -61,7 +61,7 @@ export const presets: Record<string, any> = {
 			trustProxy: 'loopback'
 		},
 		aesKey: '1234567812345678123456781234567812345678123456781234567812345678',
-		cdnUrl: 'http://cdn.pretendo.cc/miiverse',
+		cdnUrl: 'http://cdn.ixchats.com/miiverse',
 		mongoose: {
 			uri: 'mongodb://localhost:27017/miiverse?directConnection=true'
 		},
