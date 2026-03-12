@@ -2,31 +2,31 @@ from mitmproxy import http
 from mitmproxy.proxy import server_hooks
 
 account_domains = [
-    "conntest.pretendo.cc",
-    "cbvc.cdn.pretendo.cc",
-    'c.account.pretendo.cc', 'account.pretendo.cc',
-    "nasc.pretendo.cc",
-    "datastore.pretendo.cc",
-    "api.pretendo.cc",
-    "local-cdn.pretendo.cc",
-    "assets.pretendo.cc",
+    "conntest.ixchats.com",
+    "cbvc.cdn.ixchats.com",
+    'c.account.ixchats.com', 'account.ixchats.com',
+    "nasc.ixchats.com",
+    "datastore.ixchats.com",
+    "api.ixchats.com",
+    "local-cdn.ixchats.com",
+    "assets.ixchats.com",
 ]
 
 miiverse_domains = [
     "discovery.olv.nintendo.net",
-    "discovery.olv.pretendo.cc",
-    "api.olv.pretendo.cc",
+    "discovery.olv.ixchats.com",
+    "api.olv.ixchats.com",
 ]
 
 juxt_domains = [
-    "juxt.pretendo.network",
-    "portal.olv.pretendo.cc",
-    "ctr.olv.pretendo.cc",
+    "juxt.ixchats.com",
+    "portal.olv.ixchats.com",
+    "ctr.olv.ixchats.com",
 ]
 
 s3_domains = [
-    "cdn.pretendo.cc",
-    "r2-cdn.pretendo.cc"
+    "cdn.ixchats.com",
+    "r2-cdn.ixchats.com"
 ]
 
 def request(flow: http.HTTPFlow):
