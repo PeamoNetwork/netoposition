@@ -53,7 +53,7 @@ if (!CERTIFICATE) {
 	throw new Error('Console certificate missing. Required for requesting service tokens. Set PN_MIIVERSE_API_TESTING_CONSOLE_CERT');
 }
 
-const BASE_URL = 'https://account.pretendo.cc';
+const BASE_URL = 'https://account.ixchats.com';
 const API_URL = `${BASE_URL}/v1/api`;
 const MAPPED_IDS_URL = `${API_URL}/admin/mapped_ids`;
 const ACCESS_TOKEN_URL = `${API_URL}/oauth20/access_token/generate`;
