@@ -1,12 +1,12 @@
-# Juxtaposition
+# Netoposition
 
-Juxtaposition is the Pretendo made Miiverse replacement and successor.
+Netoposition is the Peamo Miiverse replacement and successor.
 
-## Philosophy
+<!--## Philosophy
 
 This project is not meant to be just a simple clone of Miiverse. We aim to evolve it and bring the platform into the modern era.
 
-This means we both want to bring all features originally found in Miiverse into Juxtaposition, but go even further with even more features.
+This means we both want to bring all features originally found in Miiverse into Juxtaposition, but go even further with even more features.-->
 
 ## Limitations
 
@@ -45,6 +45,8 @@ You have to also make an `.env` file to configure your environment. Inspire it f
 
 You can use `PN_JUXTAPOSITION_UI_USE_PRESETS=docker` and `PN_MIIVERSE_API_USE_PRESETS=docker` to automatically set up everything that's in the docker compose file.
 
-# Translation
+<!--# Translation
 
 If you'd like to help localize Pretendo Network, you can contribute to the translations on our project on [Weblate](https://hosted.weblate.org/engage/pretendonetwork/).
+lil bro just use pretendo network for translation
+-->
