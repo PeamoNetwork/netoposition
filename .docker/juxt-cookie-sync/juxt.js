@@ -1,9 +1,9 @@
-/* When developing github.com/PretendoNetwork/juxtaposition, it's useful to open
+/* When developing github.com/PeamoNetwork/netoposition, it's useful to open
  * the embedded frontends in a standard browser. There's a hack in the auth code to
  * allow for this, where developer/admin accounts can set an access_token cookie.
  * This extension slurps that cookie from the normal website and sets it on the
  * embedded frontend domains so that we can see both.
- * The cookie does nothing for normal users, so only Juxt developers should use
+ * The cookie does nothing for normal users, so only Neto developers should use
  * this extension. */
 
 console.log("OOMG HAIIIII x3 x3");
@@ -31,14 +31,14 @@ browser.cookies.onChanged.addListener(async (ev) => {
 				"storeId",
 				"value"
 			),
-		domain: ".olv.pretendo.cc",
-		url: "https://portal.olv.pretendo.cc"
+		domain: ".olv.ixchats.com",
+		url: "https://portal.olv.ixchats.com"
 	}
 	browser.cookies.set(cookie);
-	console.log("Synced access_token for .olv.pretendo.cc!");
+	console.log("Synced access_token for .olv.ixchats.com!");
 
 	const sessions = await browser.cookies.getAll({
-		domain: ".olv.pretendo.cc",
+		domain: ".olv.ixchats.com",
 		firstPartyDomain: null,
 		name: "connect.sid",
 		partitionKey: {},
