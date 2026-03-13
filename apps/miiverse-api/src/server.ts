@@ -95,7 +95,7 @@ async function main(): Promise<void> {
 	}
 }
 
-process.title = 'Pretendo - Miiverse';
+process.title = 'Neto - Miiverse';
 process.on('uncaughtException', (err) => {
 	logger.fatal(err, 'Uncaught exception');
 	process.exit(1);
