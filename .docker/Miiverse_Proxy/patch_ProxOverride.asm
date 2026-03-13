@@ -14,10 +14,10 @@ ProxHost:
 0x02165d18 = li r0, 8888 ; port number
 
 .origin = 0x1000bd28 ; http://.account.nintendo.net
-.string ".pretendo.cc"
+.string ".ixchats.com"
 
 .origin = 0x1000be3d ; https://.nintendo.net
-.string ".pretendo.cc"
+.string ".ixchats.com"
 
 [Miiverse_SSLPatch]
 moduleMatches = 0xfe9f7df0
