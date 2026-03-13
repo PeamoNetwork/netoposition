@@ -7,30 +7,30 @@ export function LoginHead(): ReactNode {
 		<>
 			{/* windows/ios/chrome */}
 			<meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-			<meta name="apple-mobile-web-app-title" content="Juxtaposition" />
-			<meta name="application-name" content="Juxtaposition" />
+			<meta name="apple-mobile-web-app-title" content="Netoposition" />
+			<meta name="application-name" content="Netoposition" />
 			<meta name="msapplication-TileColor" content="#1b1f3b" />
 			<meta name="theme-color" content="#1b1f3b" />
 
 			{/* open graph/embeds */}
-			<meta property="og:title" content="Juxtaposition" />
-			<meta property="og:description" content="An open source Nintendo Network replacement that aims to build custom servers for the WiiU and 3DS family of consoles" />
+			<meta property="og:title" content="Netoposition" />
+			<meta property="og:description" content="An open source Nintendo Network replacement that aims to build custom servers for the Wii U and 3DS family of consoles" />
 			<meta property="og:type" content="website" />
-			<meta property="og:url" content="https://juxt.pretendo.network/" />
-			<meta property="og:image" content="https://pretendo.network/assets/images/opengraph/opengraph-image.png" />
-			<meta property="og:image:alt" content="Juxtaposition" />
-			<meta property="og:site_name" content="Juxtaposition" />
+			<meta property="og:url" content="https://neto.ixchats.com/" />
+			<meta property="og:image" content="https://ixchats.com/assets/images/opengraph/opengraph-image.png" />
+			<meta property="og:image:alt" content="Netoposition" />
+			<meta property="og:site_name" content="Netoposition" />
 
 			{/* twitter embeds */}
-			<meta name="twitter:url" content="https://juxt.pretendo.network/" />
+			<meta name="twitter:url" content="https://neto./ixchats.com/" />
 			<meta name="twitter:card" content="summary_large_image" />
 			<meta name="twitter:site" content="@PretendoNetwork" />
 			<meta name="twitter:title" content="Pretendo Network" />
 			<meta name="twitter:description" content="An open source Nintendo Network replacement that aims to build custom servers for the WiiU and 3DS family of consoles" />
-			<meta name="twitter:image" content="https://pretendo.network/assets/images/opengraph/opengraph-image.png" />
+			<meta name="twitter:image" content="https:///ixchats.com/assets/images/opengraph/opengraph-image.png" />
 
 			{/* google seo */}
-			<meta name="description" content="An open source Nintendo Network replacement that aims to build custom servers for the WiiU and 3DS family of consoles" />
+			<meta name="description" content="An open source Nintendo Network replacement that aims to build custom servers for the Wii U and 3DS family of consoles" />
 			<meta name="robots" content="index, follow" />
 
 			{/* favicon */}
