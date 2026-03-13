@@ -239,8 +239,8 @@ adminRouter.post('/accounts/:pid', async (req, res) => {
 			type: 'notice',
 			text: `You have been Limited from Posting until ${humanDate(body.ban_lift_date)}. ` +
 				(body.ban_reason ? `Reason: "${body.ban_reason}". ` : '') +
-				`Click this message to view the Juxtaposition Code of Conduct. ` +
-				`If you have any questions, please contact the moderators on the Pretendo Network Forum (https://preten.do/ban-appeal/).`,
+				`Click this message to view the Netoposition Code of Conduct. ` +
+				`If you have any questions, please contact the moderators on Peamo Network (https://peamo-network.ixchats.com/ban-appeal/).`,
 			image: '/images/bandwidthalert.png',
 			link: '/titles/2551084080/new'
 		});
@@ -331,8 +331,8 @@ adminRouter.delete('/:reportID', async function (req, res) {
 		type: 'notice',
 		text: `Your ${postType} "${post.id}" has been removed` +
 			(reason ? ` for the following reason: "${reason}". ` : '. ') +
-			`Click this message to view the Juxtaposition Code of Conduct. ` +
-			`If you have any questions, please contact the moderators on the Pretendo Network Forum (https://preten.do/juxt-mods/).`,
+			`Click this message to view the Netoposition Code of Conduct. ` +
+			`If you have any questions, please contact the moderators on Peamo Network  (https://peamo-network.ixchats.com/neto-mods/).`,
 		image: '/images/bandwidthalert.png',
 		link: '/titles/2551084080/new'
 	});
