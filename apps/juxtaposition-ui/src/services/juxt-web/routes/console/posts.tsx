@@ -91,7 +91,7 @@ postsRouter.get('/:post_id/oembed.json', async function (req, res) {
 		};
 	} else {
 		img = {
-			thumbnail_url: 'https://pretendo.network/assets/images/opengraph/opengraph-image.png',
+			thumbnail_url: 'https://peamo-network.ixchats.com/assets/images/opengraph/opengraph-image.png',
 			thumbnail_width: 727,
 			thumbnail_height: 298
 		};
@@ -103,9 +103,9 @@ postsRouter.get('/:post_id/oembed.json', async function (req, res) {
 		title: `${post.screen_name} (@${postPNID.username}) - ${community?.name}`,
 		description: post.body,
 		author_name: post.screen_name,
-		author_url: 'https://juxt.pretendo.network/users/show?pid=' + post.pid,
-		provider_name: 'Juxtaposition - Pretendo Network',
-		provider_url: `https://juxt.pretendo.network`,
+		author_url: 'https://neto.ixchats.com/users/show?pid=' + post.pid,
+		provider_name: 'Netoposition - Peamo Network',
+		provider_url: `https://neto.ixchats.com`,
 		...img
 	};
 	res.send(doc);
