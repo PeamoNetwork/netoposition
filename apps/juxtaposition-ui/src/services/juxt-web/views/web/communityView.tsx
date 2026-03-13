@@ -22,10 +22,10 @@ export type CommunityViewProps = {
 export function WebCommunityHead(props: CommunityViewProps): ReactNode {
 	const url = useUrl();
 	const name = props.community.name;
-	const title = `Juxt - ${name}`;
+	const title = `Neto - ${name}`;
 	const description = props.community.description;
 	const image = url.cdn(`/icons/${props.community.olive_community_id}/128.png`);
-	const communityUrl = `https://juxt.pretendo.cc/communities/${props.community.olive_community_id}/new`;
+	const communityUrl = `https://neto.ixchats.com/communities/${props.community.olive_community_id}/new`;
 
 	return (
 		<>
@@ -40,15 +40,15 @@ export function WebCommunityHead(props: CommunityViewProps): ReactNode {
 			<meta property="og:description" content={description} />
 			<meta property="og:url" content={communityUrl} />
 			<meta property="og:image" content={image} />
-			<meta property="og:site_name" content="Juxtaposition" />
+			<meta property="og:site_name" content="Netoposition" />
 
 			{/* Twitter Meta Tags */}
 			<meta name="twitter:card" content="summary_large_image" />
 			<meta name="twitter:title" content={title} />
 			<meta name="twitter:description" content={description} />
-			<meta name="twitter:site" content="@PretendoNetwork" />
+			<meta name="twitter:site" content="@PeamoNetwork" />
 			<meta name="twitter:image" content={image} />
-			<meta name="twitter:creator" content="@PretendoNetwork" />
+			<meta name="twitter:creator" content="@PeamoNetwork" />
 		</>
 	);
 }
