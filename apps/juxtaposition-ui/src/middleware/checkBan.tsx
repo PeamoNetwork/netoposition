@@ -75,11 +75,11 @@ export const checkBan: RequestHandler = async (request, response, next) => {
 				banMessage = `${request.user.username} has been banned.`;
 		}
 		if (request.user.accessLevel < 0) {
-			banMessage += '\n\nThis ban restricts all parts of Pretendo Network.';
+			banMessage += '\n\nThis ban restricts all parts of Peamo Network.';
 		} else if (userSettings.ban_reason) {
 			banMessage += `\n\nReason: ${userSettings.ban_reason}.`;
 		}
-		banMessage += `\n\nIf you have any questions, please contact the moderators on the Pretendo Network Forum (https://preten.do/ban-appeal/).`;
+		banMessage += `\n\nIf you have any questions, please contact the moderators on Peamo Network (https://peamo-network.ixchats.com/ban-appeal).`;
 
 		return response.jsxForDirectory({
 			web: <WebLoginView toast={banMessage} redirect={request.originalUrl} />,
