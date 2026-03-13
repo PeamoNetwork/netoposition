@@ -92,7 +92,7 @@ export function WebUserTier(props: { user: GetUserDataResponse }): ReactNode {
 export function WebUserPageMeta(props: { user: GetUserDataResponse; userSettings: HydratedSettingsDocument; withImage?: boolean }): ReactNode {
 	const url = useUrl();
 	const pnidName = props.user.mii?.name ?? props.user.username;
-	const pageTitle = `Juxt - ${pnidName}`;
+	const pageTitle = `Neto - ${pnidName}`;
 	const pageImage = url.cdn(`/mii/${props.userSettings.pid}/smile_open_mouth.png`);
 	return (
 		<>
@@ -106,17 +106,17 @@ export function WebUserPageMeta(props: { user: GetUserDataResponse; userSettings
 			{/* Open Graph Meta Tags */}
 			<meta property="og:title" content={pageTitle} />
 			{props.userSettings.profile_comment_visibility ? <meta property="og:description" content={props.userSettings.profile_comment ?? undefined} /> : null}
-			<meta property="og:url" content={`https://juxt.pretendo.network/users/${props.userSettings.pid}`} />
+			<meta property="og:url" content={`https://neto.ixchats.com/users/${props.userSettings.pid}`} />
 			{ props.withImage ? <meta property="og:image" content={pageImage} /> : null }
-			<meta property="og:site_name" content="Juxtaposition" />
+			<meta property="og:site_name" content="Netoposition" />
 
 			{/* Twitter Meta Tags */}
 			<meta name="twitter:card" content="summary_large_image" />
 			<meta name="twitter:title" content={pageTitle} />
 			{props.userSettings.profile_comment_visibility ? <meta name="twitter:description" content={props.userSettings.profile_comment ?? undefined} /> : null}
-			<meta name="twitter:site" content="@PretendoNetwork" />
+			<meta name="twitter:site" content="@PeamoNetwork" />
 			{ props.withImage ? <meta name="twitter:image" content={pageImage} /> : null }
-			<meta name="twitter:creator" content="@PretendoNetwork" />
+			<meta name="twitter:creator" content="@PeamoNetwork" />
 
 		</>
 	);
