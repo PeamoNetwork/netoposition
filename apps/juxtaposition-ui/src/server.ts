@@ -24,7 +24,7 @@ import type { FetchError } from '@/fetch';
 	return this.toString();
 };
 
-process.title = 'Pretendo - Juxt-Web';
+process.title = 'Peamo - Neto-Web';
 process.on('SIGTERM', () => {
 	process.exit(0);
 });
