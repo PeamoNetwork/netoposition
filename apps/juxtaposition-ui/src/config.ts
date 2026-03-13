@@ -77,7 +77,7 @@ export const presets = {
 			port: 5173,
 			trustProxy: 'loopback'
 		},
-		cdnDomain: 'https://cdn.pretendo.cc/miiverse',
+		cdnDomain: 'https://cdn.ixchats.com/miiverse',
 		whitelist: '',
 		serverEnvironment: 'prod',
 		disableConsoleChecks: true,
