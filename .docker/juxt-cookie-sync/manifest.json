@@ -6,7 +6,7 @@
 	"description": "NETO DEV ONLY: syncs your access_token to olv domains",
 
 	"browser_action": {
-		"default_title": "Juxt cookie sync"
+		"default_title": "Neto cookie sync"
 	},
 
 	"background": {
