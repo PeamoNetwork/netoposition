@@ -167,7 +167,7 @@ function runNewmanTest(collection: string | Collection | CollectionDefinition, v
 function communitiesRoutesTest(serviceToken: string): Promise<TestResult[]> {
 	// TODO - Make this more dynamic?
 	return runNewmanTest(CommunitiesCollection, {
-		'DOMAIN': 'api.olv.pretendo.cc',
+		'DOMAIN': 'api.olv.ixchats.com',
 		'ServiceToken': serviceToken,
 		// TODO - Change these names. Should not be game-specific
 		'PP_Splatoon': 'XHRpdGxlX2lkXDE0MDczNzUxNTM1MjI5NDRcYWNjZXNzX2tleVwwXHBsYXRmb3JtX2lkXDFccmVnaW9uX2lkXDJcbGFuZ3VhZ2VfaWRcMVxjb3VudHJ5X2lkXDExMFxhcmVhX2lkXDBcbmV0d29ya19yZXN0cmljdGlvblwwXGZyaWVuZF9yZXN0cmljdGlvblwwXHJhdGluZ19yZXN0cmljdGlvblwyMFxyYXRpbmdfb3JnYW5pemF0aW9uXDBcdHJhbnNmZXJhYmxlX2lkXDEyNzU2MTQ0ODg0NDUzODk4NzgyXHR6X25hbWVcQW1lcmljYS9OZXdfWW9ya1x1dGNfb2Zmc2V0XC0xNDQwMFxyZW1hc3Rlcl92ZXJzaW9uXDBc',
@@ -181,7 +181,7 @@ function communitiesRoutesTest(serviceToken: string): Promise<TestResult[]> {
 function peopleRoutesTest(serviceToken: string): Promise<TestResult[]> {
 	// TODO - Make this more dynamic?
 	return runNewmanTest(PeopleCollection, {
-		DOMAIN: 'api.olv.pretendo.cc',
+		DOMAIN: 'api.olv.ixchats.com',
 		ServiceToken: serviceToken,
 		// TODO - Change this name. Should not be game-specific
 		PP_Splatoon: 'XHRpdGxlX2lkXDE0MDczNzUxNTM1MjI5NDRcYWNjZXNzX2tleVwwXHBsYXRmb3JtX2lkXDFccmVnaW9uX2lkXDJcbGFuZ3VhZ2VfaWRcMVxjb3VudHJ5X2lkXDExMFxhcmVhX2lkXDBcbmV0d29ya19yZXN0cmljdGlvblwwXGZyaWVuZF9yZXN0cmljdGlvblwwXHJhdGluZ19yZXN0cmljdGlvblwyMFxyYXRpbmdfb3JnYW5pemF0aW9uXDBcdHJhbnNmZXJhYmxlX2lkXDEyNzU2MTQ0ODg0NDUzODk4NzgyXHR6X25hbWVcQW1lcmljYS9OZXdfWW9ya1x1dGNfb2Zmc2V0XC0xNDQwMFxyZW1hc3Rlcl92ZXJzaW9uXDBc'
