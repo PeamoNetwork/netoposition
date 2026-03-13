@@ -16,7 +16,7 @@ const pick = (obj, ...keys) => Object.fromEntries(
 
 browser.cookies.onChanged.addListener(async (ev) => {
 	if (ev.cause !== 'explicit') return;
-	if (ev.cookie.domain !== '.pretendo.network') return;
+	if (ev.cookie.domain !== '.ixchats') return;
 	if (ev.cookie.name !== 'access_token') return;
 
 	const cookie = {
