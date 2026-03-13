@@ -19,7 +19,7 @@ miiverse_domains = [
 ]
 
 juxt_domains = [
-    "juxt.ixchats.com",
+    "neto.ixchats.com",
     "portal.olv.ixchats.com",
     "ctr.olv.ixchats.com",
 ]
