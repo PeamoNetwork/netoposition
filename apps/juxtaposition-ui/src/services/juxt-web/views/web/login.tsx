@@ -24,8 +24,8 @@ export function LoginHead(): ReactNode {
 			{/* twitter embeds */}
 			<meta name="twitter:url" content="https://neto./ixchats.com/" />
 			<meta name="twitter:card" content="summary_large_image" />
-			<meta name="twitter:site" content="@PretendoNetwork" />
-			<meta name="twitter:title" content="Pretendo Network" />
+			<meta name="twitter:site" content="@PeamoNetwork" />
+			<meta name="twitter:title" content="Peamo Network" />
 			<meta name="twitter:description" content="An open source Nintendo Network replacement that aims to build custom servers for the WiiU and 3DS family of consoles" />
 			<meta name="twitter:image" content="https:///ixchats.com/assets/images/opengraph/opengraph-image.png" />
 
